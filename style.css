@@ -506,6 +506,8 @@ h6 {
   #Menu-btn.active {
     transform: rotate(90);
     margin-top: 1rem;
+      transition: 0.2s ease;
+    margin-top: 2rem;
   }
 
   #Banner-menu.toggle {
