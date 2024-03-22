@@ -510,7 +510,7 @@ h6 {
 
   #Banner-menu.toggle {
     
-    opacity: 0;
+    display: none;
     transition: 0.2s ease;
   }
   
