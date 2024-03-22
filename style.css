@@ -87,8 +87,8 @@ h3 {
 
 .banner-content ul li {
   display: inline-block;
-  padding: 8px;
-  margin: 8px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .banner-content ul li a:hover {
@@ -177,7 +177,7 @@ h3 {
 
 #Header-img {
   border-radius: 2px;
-  background-image: url(marketing.jpg);
+  background-image: url(/resources/img/marketing.jpg);
   background-size: cover;
   height: 300px;
   width: 400px;
@@ -495,7 +495,7 @@ h6 {
   #Menu-btn {
     display: flex;
     justify-content: center;
-    transform: rotate(90deg);
+    transform: rotate(0);
     font-size: 20px;
   }
 
@@ -504,8 +504,8 @@ h6 {
   }
 
   #Menu-btn.active {
-    transform: rotate(0);
-    margin-top: 3rem;
+    transform: rotate(90);
+    margin-top: 1rem;
   }
 
   #Banner-menu.toggle {
@@ -524,30 +524,3 @@ h6 {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
